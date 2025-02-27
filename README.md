@@ -71,7 +71,7 @@ The project follows a **modular architecture** with the following modules:
 
 Directory Tree:
 
----
+```
 WeatherApp/
 ├── app/
 ├── core/
@@ -84,7 +84,7 @@ WeatherApp/
 │ ├── settings/
 ├── build.gradle
 ├── settings.gradle
----
+```
 
 ## 🛠️ Setup Instructions
 
