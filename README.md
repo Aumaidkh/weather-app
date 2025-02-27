@@ -70,6 +70,100 @@ The project follows a **modular architecture** with the following modules:
 - **`app`**: Entry point of the app, combining all modules.
 
 Directory Tree:
+
+---
+WeatherApp/
+├── app/
+├── core/
+├── data/
+├── domain/
+├── features/
+│ ├── home/
+│ ├── search/
+│ ├── favorites/
+│ ├── settings/
+├── build.gradle
+├── settings.gradle
+---
+
+## 🛠️ Setup Instructions
+
+### Prerequisites
+
+- Android Studio (latest version recommended)
+- JDK 11 or higher
+- Git installed on your machine
+
+### Steps to Run the Project
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/weather-app.git
+   cd weather-app
+   ```
+2. **Open in Android Studio**:
+  - Open the project in Android Studio by selecting the build.gradle file.
+3. **Set Up API Keys**:
+  - Obtain an API key from OpenWeatherMap or another weather service.
+  - Add the API key to the local.properties file:
+  ```bash
+  WEATHER_API_KEY=your_api_key_here
+  ```
+4. **Install Dependencie**:
+ - Ensure all dependencies are downloaded by syncing the Gradle files.
+5. **Run the App**:
+ - Connect a physical device or use an emulator.
+ - Click the "Run" button in Android Studio.
+# 👥 How to Contribute
+
+We welcome contributions! Here’s how you can get involved:
+
+1. **Fork the Repository**:
+   - Fork this repository to your GitHub account.
+
+2. **Create a Branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Changes**:
+- Implement your changes or fixes.
+
+4. **Test Your Changes**:
+- Ensure all tests pass and the app runs smoothly.
+
+5. **Submit a Pull Request**:
+- Push your branch and create a pull request with a detailed description of your changes.
+
+---
+
+## Contribution Guidelines
+
+- Follow the **Clean Code** principles.
+- Write meaningful commit messages.
+- Ensure your code adheres to the project's coding standards.
+- Add unit tests for new features or bug fixes.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Thanks to [OpenWeatherMap](https://openweathermap.org/) for providing the weather API.
+- Special thanks to the open-source community for their contributions and support.
+
+---
+
+## 📞 Contact
+
+For questions or feedback, feel free to reach out:
+
+- **Email**: aumaidm.m.c@gmail.com  
+- **GitHub**: [@aumaidkh](https://github.com/aumaidkh)  
 #### Figma Design
 <img width="390" alt="Home (1)" src="https://github.com/user-attachments/assets/45e13691-890e-4194-8342-982d9be6b851" />
 <img width="390" alt="Add" src="https://github.com/user-attachments/assets/631f9aa3-7a40-407a-8c2e-1ece038f0654" />
